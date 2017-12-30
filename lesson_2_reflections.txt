@@ -27,6 +27,11 @@ Its easier to work out orphaned commits that you cannot get back to
 11. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Auto merging cannot account for every eventuality as git itself has no idea whether a chunk of code is required for a func†ion to operate correctly
 
+12. git add remote origin https://github.com/pauldavidbrown/reflections.git  // this is naming the remote origin and setting its location
+	git remote -v // to check the push pull urls
+	git push origin master  // this is pushing the master branch to origin
+	git pull origin master
+
 
 
 
