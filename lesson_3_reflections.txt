@@ -6,5 +6,21 @@ A fork is effectively the same as making a clone but on github, the original use
 A clone create a complete copy of a repo including all currently reachable commits in its history
 A branch is enables you to take a repos current status and copy it so that you can work on features etc and then merge back in later if you wish
 
+3. Git fetch is can be used to bring in the lastest position of the head at the remote repo without causing a conflict with your local copy.  Enabled you to run git diff to see what the differences are.
+
+4. When managing a merge conflict, my code appears at the top, then the historic / code in common / then conflicting code at the bottom.
+
+5. A 'fast forward merge' is all about reachability, if you can reach an older commit from a certain point it is a fast forward commit 
+
+6.What is the benefit of having a copy of the last known state of the remote stored locally?
+It enables you to manage conflicts and identify where you are before you do a pull
+
+7. A 'pull request' is a github feature where you are effectively asking a collaborator whether it is ok to merge their changes into the master branch.
+
+9. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Manual collaboration could be easier, but as soon as things go wrong, that is when things would unraval
+
+10. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If you are making changes in master it enables you to open pull requests which allows you to open your work out to scrutiny of others working on a project.
 
 
